@@ -8,5 +8,4 @@ sudo mkdir /home/croptracker
 sudo chmod -R 777 /home/croptracker
 cd /home/croptracker
 git clone git@github.com:saradfrz/crop-tracker.git .
-git config --global --add safe.directory /airflow
-git config --global --add safe.directory /airflow/croptracker
+git config --global --add safe.directory /croptracker
