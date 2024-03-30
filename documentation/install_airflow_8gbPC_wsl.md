@@ -13,7 +13,6 @@ wsl --install Ubuntu-22.04
 Enter new UNIX username: airflow
 ```
 
-```
 
 ## Configure Linux 
 Customize and execute the file `init_files/configure_linux.sh` <br>
