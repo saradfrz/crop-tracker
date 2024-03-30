@@ -36,6 +36,7 @@ https://github.com/saradfrz/crop-tracker/blob/main/documentation/configure_linux
 ```
 touch configure_linux.sh
 nano configure_linux.sh
+sudo bash configure_linux.sh
 ```
 
 ## Install Python from Source
@@ -44,6 +45,7 @@ https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_
 ```
 touch install_python_from_source.sh
 nano install_python_from_source.sh
+sudo bash install_python_from_source.sh
 ```
 
 ## Install Postgres
