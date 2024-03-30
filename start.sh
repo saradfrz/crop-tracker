@@ -1,3 +1,4 @@
+sudo chmod -R 777 /croptracker && \
 export AIRFLOW_HOME=/croptracker && \
 export AIRFLOW__CORE__DAGS_FOLDER=/croptracker/dags && \
 export AIRFLOW_VERSION=2.8.1 && \

@@ -1,0 +1,178 @@
+[2024-03-30T15:50:25.351-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-30T15:50:25.352-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-30T15:50:25.352-0300] {manager.py:471} INFO - Checking for new files in /croptracker/dags every 300 seconds
+[2024-03-30T15:50:25.353-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-30T15:50:25.354-0300] {manager.py:741} INFO - There are 1 files in /croptracker/dags
+[2024-03-30T15:50:31.347-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/croptracker/dags/forex_data_pipeline.py  27718  5.90s             0           0
+================================================================================
+[2024-03-30T15:51:42.805-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-30T15:51:43.025-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-30T15:51:46.040-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-30T15:51:46.143-0300] {manager.py:1201} ERROR - Processor for /croptracker/dags/forex_data_pipeline.py with PID 27718 started at 2024-03-30T18:50:25.439157+00:00 has timed out, killing it.
+[2024-03-30T15:51:46.146-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           0           1  80.70s          2024-03-30T18:51:46
+================================================================================
+[2024-03-30T15:52:17.708-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  29062  0.65s             0           1  80.70s          2024-03-30T18:51:46
+================================================================================
+[2024-03-30T15:52:30.071-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-30T15:52:30.071-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-30T15:52:30.071-0300] {manager.py:471} INFO - Checking for new files in /croptracker/dags every 300 seconds
+[2024-03-30T15:52:30.072-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-30T15:52:30.073-0300] {manager.py:741} INFO - There are 1 files in /croptracker/dags
+[2024-03-30T15:52:31.055-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/croptracker/dags/forex_data_pipeline.py  29078  0.55s             0           0
+================================================================================
+[2024-03-30T15:53:01.142-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  26.05s          2024-03-30T18:52:56
+================================================================================
+[2024-03-30T15:53:32.978-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  30374  6.20s             1           0  26.05s          2024-03-30T18:52:56
+================================================================================
+[2024-03-30T15:54:03.177-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  12.10s          2024-03-30T18:53:38
+================================================================================
+[2024-03-30T15:54:33.680-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  4.38s           2024-03-30T18:54:13
+================================================================================
+[2024-03-30T15:55:04.044-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  6.63s           2024-03-30T18:54:50
+================================================================================
+[2024-03-30T15:55:34.924-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  11.14s          2024-03-30T18:55:31
+================================================================================
+[2024-03-30T15:56:05.119-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  32938  3.16s             1           0  11.14s          2024-03-30T18:55:31
+================================================================================
+[2024-03-30T15:56:35.886-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  32938  33.93s            1           0  11.14s          2024-03-30T18:55:31
+================================================================================
+[2024-03-30T15:56:51.992-0300] {manager.py:1201} ERROR - Processor for /croptracker/dags/forex_data_pipeline.py with PID 32938 started at 2024-03-30T18:56:01.952533+00:00 has timed out, killing it.
+[2024-03-30T15:57:06.288-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           0           1  50.04s          2024-03-30T18:56:51
+================================================================================
+[2024-03-30T15:57:30.482-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-30T15:57:30.490-0300] {manager.py:741} INFO - There are 1 files in /croptracker/dags
+[2024-03-30T15:57:36.576-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  0.96s           2024-03-30T18:57:23
+================================================================================
+[2024-03-30T15:58:06.786-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  0.54s           2024-03-30T18:57:54
+================================================================================
+[2024-03-30T15:58:37.095-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  0.25s           2024-03-30T18:58:25
+================================================================================
+[2024-03-30T15:59:07.618-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           1           0  0.24s           2024-03-30T18:58:55
+================================================================================
+[2024-03-30T15:59:54.618-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  34037  23.14s            1           0  0.24s           2024-03-30T18:58:55
+================================================================================
+[2024-03-30T16:00:16.803-0300] {manager.py:1201} ERROR - Processor for /croptracker/dags/forex_data_pipeline.py with PID 34037 started at 2024-03-30T18:59:26.598740+00:00 has timed out, killing it.
+[2024-03-30T16:00:27.184-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py                           0           1  50.20s          2024-03-30T19:00:16
+================================================================================
+[2024-03-30T16:01:09.327-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/croptracker/dags/forex_data_pipeline.py  34658  22.09s            0           1  50.20s          2024-03-30T19:00:16
+================================================================================

@@ -1,0 +1,91 @@
+[2024-03-30T15:50:25.525-0300] {processor.py:161} INFO - Started process (PID=27718) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:50:25.527-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:50:25.529-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:50:25.529-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:51:43.025-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:51:43.024-0300] {timeout.py:68} ERROR - Process timed out, PID: 27718
+[2024-03-30T15:51:45.645-0300] {logging_mixin.py:188} WARNING - Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+[2024-03-30T15:51:45.645-0300] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-03-30T15:51:45.646-0300] {logging_mixin.py:188} WARNING -   File "/croptracker/.venv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 456, in _exit_gracefully
+[2024-03-30T15:51:45.647-0300] {logging_mixin.py:188} WARNING -     sys.exit(os.EX_OK)
+[2024-03-30T15:51:45.647-0300] {logging_mixin.py:188} WARNING - SystemExit: 0
+[2024-03-30T15:52:19.755-0300] {processor.py:161} INFO - Started process (PID=29062) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:52:19.833-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:52:20.075-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:19.982-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:52:30.426-0300] {processor.py:161} INFO - Started process (PID=29078) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:52:30.427-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:52:30.428-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:30.428-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:52:31.020-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:52:49.703-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:49.701-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:forex_data_pipeline_v_5
+[2024-03-30T15:52:49.861-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:49.859-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:forex_data_pipeline_v_5
+[2024-03-30T15:52:49.986-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:49.984-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:forex_data_pipeline_v_5
+[2024-03-30T15:52:49.988-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:49.987-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:52:50.050-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:50.048-0300] {dag.py:3058} INFO - Creating ORM DAG for forex_data_pipeline_v_5
+[2024-03-30T15:52:53.600-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:52:53.572-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:52:56.356-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 25.933 seconds
+[2024-03-30T15:53:29.700-0300] {processor.py:161} INFO - Started process (PID=30374) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:53:29.787-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:53:29.913-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:53:29.904-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:53:34.027-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:53:36.106-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:53:36.105-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:53:38.418-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:53:38.417-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:53:38.816-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 9.608 seconds
+[2024-03-30T15:54:10.167-0300] {processor.py:161} INFO - Started process (PID=31358) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:10.218-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:54:10.234-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:10.229-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:11.283-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:13.243-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:13.243-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:54:13.354-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:13.352-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:54:13.595-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 4.184 seconds
+[2024-03-30T15:54:43.823-0300] {processor.py:161} INFO - Started process (PID=31805) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:43.825-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:54:43.827-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:43.826-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:44.118-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:54:48.655-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:48.655-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:54:50.001-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:54:50.000-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:54:50.394-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 6.584 seconds
+[2024-03-30T15:55:22.741-0300] {processor.py:161} INFO - Started process (PID=32562) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:55:22.813-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:55:22.933-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:55:22.827-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:55:24.336-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:55:25.357-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:55:25.332-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:55:29.837-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:55:29.836-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:55:31.358-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 9.076 seconds
+[2024-03-30T15:56:02.795-0300] {processor.py:161} INFO - Started process (PID=32938) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:56:02.819-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:56:02.822-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:56:02.821-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:56:06.812-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:56:43.538-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:56:43.537-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:56:49.753-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:56:49.752-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:57:22.981-0300] {processor.py:161} INFO - Started process (PID=33626) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:23.015-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:57:23.020-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:23.018-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:23.143-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:23.236-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:23.236-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:57:23.294-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:23.294-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:57:23.383-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 0.537 seconds
+[2024-03-30T15:57:54.142-0300] {processor.py:161} INFO - Started process (PID=33645) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:54.152-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:57:54.154-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:54.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:54.197-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:57:54.324-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:54.324-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:57:54.461-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:57:54.461-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:57:54.651-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 0.517 seconds
+[2024-03-30T15:58:25.008-0300] {processor.py:161} INFO - Started process (PID=33665) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:25.011-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:58:25.013-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:25.012-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:25.043-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:25.108-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:25.108-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:58:25.131-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:25.131-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:58:25.195-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 0.198 seconds
+[2024-03-30T15:58:55.322-0300] {processor.py:161} INFO - Started process (PID=33686) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:55.350-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:58:55.351-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:55.351-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:55.382-0300] {processor.py:840} INFO - DAG(s) 'forex_data_pipeline_v_5' retrieved from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:58:55.415-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:55.415-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-30T15:58:55.436-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:58:55.436-0300] {dag.py:3823} INFO - Setting next_dagrun for forex_data_pipeline_v_5 to 2024-03-29 00:00:00+00:00, run_after=2024-03-30 00:00:00+00:00
+[2024-03-30T15:58:55.499-0300] {processor.py:183} INFO - Processing /croptracker/dags/forex_data_pipeline.py took 0.190 seconds
+[2024-03-30T15:59:48.919-0300] {processor.py:161} INFO - Started process (PID=34037) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T15:59:55.349-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T15:59:57.446-0300] {logging_mixin.py:188} INFO - [2024-03-30T15:59:57.321-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T16:01:12.483-0300] {processor.py:161} INFO - Started process (PID=34658) to work on /croptracker/dags/forex_data_pipeline.py
+[2024-03-30T16:01:13.154-0300] {processor.py:830} INFO - Processing file /croptracker/dags/forex_data_pipeline.py for tasks to queue
+[2024-03-30T16:01:13.598-0300] {logging_mixin.py:188} INFO - [2024-03-30T16:01:13.512-0300] {dagbag.py:538} INFO - Filling up the DagBag from /croptracker/dags/forex_data_pipeline.py
