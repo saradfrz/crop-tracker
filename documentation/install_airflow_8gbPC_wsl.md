@@ -32,7 +32,7 @@ source .bash_profile
 
 ## Configure Linux 
 Customize and execute the file `init_files/configure_linux.sh` <br>
-https://github.com/saradfrz/crop-tracker/blob/main/documentation/configure_linux.sh <br>
+https://github.com/saradfrz/crop-tracker/blob/main/init_files/configure_linux.sh <br>
 ```
 touch configure_linux.sh
 nano configure_linux.sh
@@ -41,7 +41,7 @@ sudo bash configure_linux.sh
 
 ## Install Python from Source
 Execute the file: `init_files/install_python_from_source.sh` <br>
-https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_from_source.sh <br>
+https://github.com/saradfrz/crop-tracker/blob/main/init_files/install_python_from_source.sh <br>
 ```
 touch install_python_from_source.sh
 nano install_python_from_source.sh
@@ -105,7 +105,7 @@ psql -U username -d database_name -h hostname -p port
 ## Install Airflow
 
 Execute the file: `install_python_from_source.sh` <br>
-https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_from_source.sh <br>
+https://github.com/saradfrz/crop-tracker/blob/main/init_files/install_python_from_source.sh <br>
 ```
 sudo bash init_files/install_airflow.sh
 ```
