@@ -3,8 +3,9 @@ sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libns
 ssh-keygen -t ed25519 -C "your_email@example.com"
 git config --global user.email "your_email@example.com"
 git config --global user.name "Your Name"
-sudo mkdir /home/airflow/croptracker
-sudo chmod -R 777 /home/airflow/croptracker
+sudo mkdir /home/croptracker
+sudo chmod -R 777 /home/croptracker
+cd /home/croptracker
 git clone git@github.com:saradfrz/crop-tracker.git .
 git config --global --add safe.directory /airflow
 git config --global --add safe.directory /airflow/croptracker
