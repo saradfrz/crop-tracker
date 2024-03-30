@@ -30,7 +30,7 @@ wsl --unregister Ubuntu-22.04
 wsl --install Ubuntu-22.04
 ```
 ```
-Enter new UNIX username: airflow
+Enter new UNIX username: <windows_user>
 ```
 
 
