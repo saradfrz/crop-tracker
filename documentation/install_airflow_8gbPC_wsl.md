@@ -31,7 +31,7 @@ source .bash_profile
 ```
 
 ## Configure Linux 
-Customize and execute the file `configure_linux.sh` <br>
+Customize and execute the file `init_files/configure_linux.sh` <br>
 https://github.com/saradfrz/crop-tracker/blob/main/documentation/configure_linux.sh <br>
 ```
 touch configure_linux.sh
@@ -40,7 +40,7 @@ sudo bash configure_linux.sh
 ```
 
 ## Install Python from Source
-Execute the file: `install_python_from_source.sh` <br>
+Execute the file: `init_files/install_python_from_source.sh` <br>
 https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_from_source.sh <br>
 ```
 touch install_python_from_source.sh
@@ -104,43 +104,10 @@ psql -U username -d database_name -h hostname -p port
 
 ## Install Airflow
 
+Execute the file: `install_python_from_source.sh` <br>
+https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_from_source.sh <br>
 ```
-sudo apt update && sudo apt upgrade
-```
-```
-python3.10 -m venv .venv
-```
-```
-source .venv/bin/activate
-```
-
-22. Export the environment variable AIRFLOW_HOME used by Airflow to store the dags folder, logs folder and configuration file <br>
-```
-export AIRFLOW_HOME=/home/airflow && \
-export AIRFLOW_VERSION=2.8.1 && \
-export PYTHON_VERSION=3.10
-export AIRFLOW__DATABASE__SQL_ALCHEMY_CONN="postgresql+psycopg2://airflow:radioactive@localhost:5432/airflow_db" && \
-export AIRFLOW__CORE__LOAD_EXAMPLES=False && \
-export AIRFLOW__CORE__EXECUTOR=LocalExecutor
-```
-
-23. Install the version 2.0.2 of apache-airflow with all subpackages defined between square brackets. (Notice that you can still add subpackages after all, you will use the same command with different subpackages even if Airflow is already installed) <br>
-
-```
-pip install "apache-airflow[crypto,celery,postgres,cncf.kubernetes,docker]==${AIRFLOW_VERSION}" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
-```
-
-26. Install the postgres plugin <br>
-```
-pip install wheel
-```
-```
-pip install psycopg2
-```
-
-28. Initialise the metadatabase <br>
-```
-airflow db migrate
+sudo bash init_files/install_airflow.sh
 ```
 
 In case of error:
