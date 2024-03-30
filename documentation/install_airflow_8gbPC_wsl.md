@@ -38,6 +38,7 @@ touch configure_linux.sh
 nano configure_linux.sh
 sudo bash configure_linux.sh
 ```
+https://github.com/settings/keys
 
 ## Install Python from Source
 Execute the file: `init_files/install_python_from_source.sh` <br>
