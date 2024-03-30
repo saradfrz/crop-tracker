@@ -32,8 +32,6 @@ wsl --install Ubuntu-22.04
 ```
 Enter new UNIX username: <windows_user>
 ```
-
-
 ## Configure Linux 
 Customize and execute the file `init_files/configure_linux.sh` <br>
 https://github.com/saradfrz/crop-tracker/blob/main/init_files/configure_linux.sh <br>
@@ -56,7 +54,6 @@ sudo bash init_files/install_python_from_source.sh
 ```bash 
 sudo bash init_files/install_postgres.sh
 ```
-
 ```sql
 ALTER USER postgres WITH PASSWORD 'new_password';
 ```
@@ -81,7 +78,7 @@ ALTER DATABASE airflow_db OWNER TO airflow
 ```
 `ctr + z`<br>
 ```bash
-su airflow
+su <windows_user>
 sudo nano  /etc/postgresql/16/main/pg_hba.conf
 ```
 **Add the following line** <br>
@@ -118,18 +115,9 @@ In case of error:
 psql -U postgres -d airflow_db -h localhost -p 5432
 ```
 
-31. Create admin user <br>
-```
-source .venv/bin/activate
-airflow users create -u admin -f admin -l admin -r Admin -e admin@airflow.com -p mypassword
-```
-
 33. Start Airflow’s scheduler in background <br>
-```
-airflow scheduler &
-```
-```
-airflow webserver &
+```bash 
+sudo bash start.sh
 ```
 
 ## Next uses
