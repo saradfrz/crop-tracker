@@ -25,9 +25,8 @@ sudo bash configure_linux.sh
 https://github.com/settings/keys
 
 ## Install Python from Source
-Execute the file: `init_files/install_python_from_source.sh` <br>
-https://github.com/saradfrz/crop-tracker/blob/main/init_files/install_python_from_source.sh <br>
 ```
+cd /croptracker
 sudo bash init_files/install_python_from_source.sh
 ```
 
@@ -38,25 +37,30 @@ sudo bash init_files/install_python_from_source.sh
 sudo bash init_files/install_postgres.sh
 ```
 
-```
+```sql
 ALTER USER postgres WITH PASSWORD 'new_password';
 ```
-```
+```sql
 CREATE DATABASE airflow_db;
 ```
-```
+```sql
 CREATE USER airflow WITH PASSWORD 'radioactive';
 ```
+`ctr + z` <br>
+```bash
+psql -d airflow_db
 ```
+```sql
 GRANT ALL PRIVILEGES ON DATABASE airflow_db TO airflow;
 ```
-```
+```sql
 GRANT ALL PRIVILEGES ON SCHEMA public TO airflow;
 ```
-```
+```sql
 ALTER DATABASE airflow_db OWNER TO airflow
 ```
-```
+`ctr + z`<br>
+```bash
 sudo nano  /etc/postgresql/16/main/pg_hba.conf
 ```
 **Add the following line** <br>
@@ -90,13 +94,9 @@ In case of error:
 psql -U postgres -d airflow_db -h localhost -p 5432
 ```
 
-29. Configure `airflow.cfg` to point to the postgres database <br>
-```
-sql_alchemy_conn = postgresql+psycopg2://airflow:radioactive@localhost:5432/airflow_db
-```
-
 31. Create admin user <br>
 ```
+source .venv/bin/activate
 airflow users create -u admin -f admin -l admin -r Admin -e admin@airflow.com -p mypassword
 ```
 
