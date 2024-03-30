@@ -28,9 +28,7 @@ https://github.com/settings/keys
 Execute the file: `init_files/install_python_from_source.sh` <br>
 https://github.com/saradfrz/crop-tracker/blob/main/init_files/install_python_from_source.sh <br>
 ```
-touch install_python_from_source.sh
-nano install_python_from_source.sh
-sudo bash install_python_from_source.sh
+sudo bash init_files/install_python_from_source.sh
 ```
 
 ## Install Postgres
