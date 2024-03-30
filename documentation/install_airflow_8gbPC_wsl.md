@@ -13,21 +13,6 @@ wsl --install Ubuntu-22.04
 Enter new UNIX username: airflow
 ```
 
-### Configure the terminal
-```
-nano .bash_profile
-```
-```
-# Define colors
-MACHINE_COLOR="\[\033[93m\]"
-USER_COLOR="\[\033[95m\]"
-DIRECTORY_COLOR="\[\033[96m\]"
-RESET_COLOR="\[\033[0m\]"
-# Set the prompt format
-export PS1="$MACHINE_COLOR\h\[$(echo -e "\xF0\x9F\x90\xA7")\]$USER_COLOR\[$USER@\]$RESET_COLOR$DIRECTORY_COLOR\w$RESET_COLOR\\$ "
-```
-```
-source .bash_profile
 ```
 
 ## Configure Linux 
