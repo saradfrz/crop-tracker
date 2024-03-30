@@ -1,7 +1,6 @@
-# CyberTinker
+# Crop Tracker
 
-CyberTinker is an Apache Airflow-based project designed to aggregate news about major corporations and leading manufacturers of PC hardware components like motherboards, RAM, and graphics cards.
-
+Crop Tracker is an Apache Airflow-based project designed to compile news on crops and the agroindustry.
 
 ## Overview
 
