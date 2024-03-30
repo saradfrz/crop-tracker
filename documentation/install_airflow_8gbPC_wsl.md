@@ -84,8 +84,11 @@ psql -U username -d database_name -h hostname -p port
 
 ## Install Airflow
 
-Execute the file: `install_python_from_source.sh` <br>
-https://github.com/saradfrz/crop-tracker/blob/main/init_files/install_python_from_source.sh <br>
+```
+sudo apt update && sudo apt upgrade
+python3.10 -m venv .venv
+source .venv/bin/activate
+```
 ```
 sudo bash init_files/install_airflow.sh
 ```
