@@ -3,6 +3,7 @@ sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libns
 ssh-keygen -t ed25519 -C "your_email@example.com"
 git config --global user.email "your_email@example.com"
 git config --global user.name "Your Name"
+sudo nano  /root/.ssh/id_ed25519.pub
 sudo mkdir /home/croptracker
 sudo chmod -R 777 /home/croptracker
 cd /home/croptracker
