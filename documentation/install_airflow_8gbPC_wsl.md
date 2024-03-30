@@ -61,6 +61,7 @@ ALTER DATABASE airflow_db OWNER TO airflow
 ```
 `ctr + z`<br>
 ```bash
+su airflow
 sudo nano  /etc/postgresql/16/main/pg_hba.conf
 ```
 **Add the following line** <br>
