@@ -33,19 +33,11 @@ sudo bash init_files/install_python_from_source.sh
 
 ## Install Postgres
 16. Install Postgres from Apt repository<br>
+
 ```bash 
-sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-sudo apt-get update
-sudo apt-get -y install postgresql
+sudo bash init_files/install_postgres.sh
 ```
 
-```
-sudo -i -u postgres
-```
-```
-psql
-```
 ```
 ALTER USER postgres WITH PASSWORD 'new_password';
 ```
