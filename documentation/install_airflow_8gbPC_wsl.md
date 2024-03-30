@@ -32,7 +32,7 @@ source .bash_profile
 
 ## Configure Linux 
 Customize and execute the file `configure_linux.sh` <br>
-https://github.com/saradfrz/cyber-tinker/blob/main/documentation/configure_linux.sh <br>
+https://github.com/saradfrz/crop-tracker/blob/main/documentation/configure_linux.sh <br>
 ```
 touch configure_linux.sh
 nano configure_linux.sh
@@ -40,7 +40,7 @@ nano configure_linux.sh
 
 ## Install Python from Source
 Execute the file: `install_python_from_source.sh` <br>
-https://github.com/saradfrz/cyber-tinker/blob/main/documentation/install_python_from_source.sh <br>
+https://github.com/saradfrz/crop-tracker/blob/main/documentation/install_python_from_source.sh <br>
 ```
 touch install_python_from_source.sh
 nano install_python_from_source.sh
