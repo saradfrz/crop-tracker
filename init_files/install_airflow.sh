@@ -1,6 +1,3 @@
-sudo apt update && sudo apt upgrade
-python3.10 -m venv .venv
-source .venv/bin/activate
 export AIRFLOW_HOME=/home/airflow
 export AIRFLOW_VERSION=2.8.1
 export PYTHON_VERSION=3.10
