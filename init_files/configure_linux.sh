@@ -4,8 +4,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 git config --global user.email "your_email@example.com"
 git config --global user.name "Your Name"
 sudo nano  /root/.ssh/id_ed25519.pub
-sudo mkdir /airflow/croptracker
-sudo chmod -R 777 /airflow/croptracker
-cd /home/croptracker
+sudo mkdir /croptracker
+sudo chmod -R 777 /croptracker
+cd /croptracker
 git clone git@github.com:saradfrz/crop-tracker.git .
 git config --global --add safe.directory /airflow/croptracker
