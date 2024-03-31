@@ -61,7 +61,7 @@ ALTER USER postgres WITH PASSWORD 'new_password';
 CREATE DATABASE airflow_db;
 ```
 ```sql
-CREATE USER airflow WITH PASSWORD 'radioactive';
+CREATE USER airflow WITH PASSWORD 'airflow_password';
 ```
 `ctr + z` <br>
 ```bash
