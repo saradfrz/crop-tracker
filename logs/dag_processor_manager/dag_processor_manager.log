@@ -1996,3 +1996,22 @@ File Path                                 PID    Runtime      # DAGs    # Errors
 [2024-03-31T15:50:06.781-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
 [2024-03-31T15:55:07.066-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
 [2024-03-31T15:55:07.068-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-03-31T16:00:07.782-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-31T16:00:07.783-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-03-31T16:05:08.092-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-31T16:05:08.122-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-03-31T16:10:08.451-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-03-31T16:10:08.453-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-04-01T08:35:09.346-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-01T08:35:09.364-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-01T08:35:09.364-0300] {manager.py:471} INFO - Checking for new files in /croptracker/dags every 300 seconds
+[2024-04-01T08:35:09.364-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-04-01T08:35:09.376-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-04-01T08:40:09.895-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-04-01T08:40:09.897-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags
+[2024-04-01T08:42:54.231-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-04-01T09:12:45.920-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-01T09:12:45.937-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-01T09:12:45.938-0300] {manager.py:471} INFO - Checking for new files in /croptracker/dags every 300 seconds
+[2024-04-01T09:12:45.939-0300] {manager.py:738} INFO - Searching for files in /croptracker/dags
+[2024-04-01T09:12:45.940-0300] {manager.py:741} INFO - There are 0 files in /croptracker/dags

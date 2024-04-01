@@ -24,10 +24,10 @@ Contributions to CyberTinker are welcome! If you encounter any issues, have sugg
 
 1. Install WSL <br>
 ```
-wsl --unregister Ubuntu-22.04
+wsl --unregister Ubuntu-04
 ```
 ```
-wsl --install Ubuntu-22.04
+wsl --install Ubuntu-04
 ```
 ```
 Enter new UNIX username: <windows_user>
@@ -49,7 +49,7 @@ sudo bash init_files/install_python_from_source.sh
 ```
 
 ## Install Postgres
-16. Install Postgres from Apt repository<br>
+Install Postgres from Apt repository<br>
 
 ```bash 
 sudo bash init_files/install_postgres.sh
@@ -79,60 +79,54 @@ ALTER DATABASE airflow_db OWNER TO airflow
 `ctr + z`<br>
 ```bash
 su <windows_user>
-sudo nano  /etc/postgresql/16/main/pg_hba.conf
+sudo nano  /etc/postgresql/main/pg_hba.conf
 ```
 **Add the following line** <br>
 ```
-host    all             airflow         127.0.0.1/32            scram-sha-256
+host    all             airflow         .0.0.1/           scram-sha-
 ```
 #### Useful commands <br>
-```
+```bash
 # Open pg_hba.config
-sudo nano  /etc/postgresql/16/main/pg_hba.config
+sudo nano  /etc/postgresql/main/pg_hba.config
 ```
-```
+```bash
 # Restart service
 sudo service postgresql restart
 ```
-```
+```bash
 # Login
 psql -U username -d database_name -h hostname -p port
 ```
 
 ## Install Airflow
 
-```
+```bash
 sudo apt update && sudo apt upgrade
-python3.10 -m venv .venv
+python3.-m venv .venv
 source .venv/bin/activate
 ```
-```
-sudo bash init_files/install_airflow.sh
+```bash
+sudo bash -c "./init_files/install_airflow.sh; exec bash"
 ```
 
 In case of error:
-```
-psql -U postgres -d airflow_db -h localhost -p 5432
+```bash
+psql -U postgres -d airflow_db -h localhost -p 2
 ```
 
-33. Start Airflow’s scheduler in background <br>
-```bash 
-sudo bash start.sh
-```
 
 ## Next uses
-
-34. Execute the start.sh file
-```
-source ./start.sh
+```bash 
+sudo bash -c "./start.sh; exec bash"
 ```
 
 # Troubleshoot <br>
 
 ## Restart
 ```
-kill $(ps aux | grep '/home/airflow/.venv/bin/python3.10' | grep -v grep | awk '{print $2}')
-export AIRFLOW__DATABASE__SQL_ALCHEMY_CONN="postgresql+psycopg2://airflow:radioactive@localhost:5432/airflow_db" && export AIRFLOW__CORE__LOAD_EXAMPLES=False && export AIRFLOW__CORE__EXECUTOR=LocalExecutor
+kill $(ps aux | grep '/home/airflow/.venv/bin/python3. | grep -v grep | awk '{print $2}')
+export AIRFLOW__DATABASE__SQL_ALCHEMY_CONN="postgresql+psycopg2://airflow:radioactive@localhost:2/airflow_db" && export AIRFLOW__CORE__LOAD_EXAMPLES=False && export AIRFLOW__CORE__EXECUTOR=LocalExecutor
 airflow scheduler &
 airflow webserver &
 ```
